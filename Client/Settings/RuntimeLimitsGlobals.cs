@@ -7,7 +7,6 @@
 // </copyright>
 //----------------------------------------------------------------------- 
 
-using System;
 
 namespace Web.Management.PHP.Settings
 {

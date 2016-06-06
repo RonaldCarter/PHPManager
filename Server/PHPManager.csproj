@@ -113,6 +113,7 @@
     <None Include="..\phpmgrpublic.snk">
       <Link>phpmgrpublic.snk</Link>
     </None>
+    <None Include="ClassDiagram2.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -133,8 +134,9 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>CALL "%25VS90COMNTOOLS%25\vsvars32.bat" &gt; NULL
-sn –Vr $(TargetFileName)
-gacutil.exe /if "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
+sn -Vr $(TargetDir)$(TargetFileName)
+gacutil.exe /if "$(TargetPath)"
+</PostBuildEvent>
   </PropertyGroup>
 </Project>

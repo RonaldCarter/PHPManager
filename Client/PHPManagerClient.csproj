@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -69,6 +70,11 @@
     </Compile>
     <Compile Include="Extensions\AllExtensionsPage.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Settings\AddEditSettingDialog.cs">
       <SubType>Form</SubType>
@@ -153,6 +159,10 @@
     <None Include="..\phpmgrpublic.snk">
       <Link>phpmgrpublic.snk</Link>
     </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Resources\goBack16.png" />
     <Content Include="Resources\php-extensions32.png" />
     <Content Include="Resources\php-logo16.png" />
@@ -170,8 +180,8 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>CALL "%25VS90COMNTOOLS%25\vsvars32.bat" &gt; NULL
-sn –Vr $(TargetFileName)
+    <PostBuildEvent>CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
+sn -Vr $(TargetDir)$(TargetFileName)
 gacutil.exe /if "$(TargetPath)"
 sn -Vr $(TargetDir)ru-RU\$(TargetName).resources.dll
 gacutil /if $(TargetDir)ru-RU\$(TargetName).resources.dll

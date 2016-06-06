@@ -14,7 +14,6 @@ using System.IO;
 using Microsoft.Web.Administration;
 using Microsoft.Web.Management.Server;
 using Web.Management.PHP.Config;
-using Web.Management.PHP.Handlers;
 
 namespace Web.Management.PHP
 {

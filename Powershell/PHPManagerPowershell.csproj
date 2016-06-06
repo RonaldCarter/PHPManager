@@ -31,6 +31,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -70,6 +71,11 @@
     <Compile Include="PHPSettingItem.cs" />
     <Compile Include="PHPVersionItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="RemovePHPSettingCmdlet.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -85,6 +91,10 @@
       <Link>phpmgrpublic.snk</Link>
     </None>
     <None Include="Documentation\Remove-WarningStuff.ps1" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources.resx">
@@ -110,9 +120,9 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>CALL "%25VS90COMNTOOLS%25\vsvars32.bat" &gt; NULL
-sn –Vr $(TargetFileName)
-gacutil -if $(TargetPath)
+    <PostBuildEvent>CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
+sn -Vr $(TargetDir)$(TargetFileName)
+gacutil.exe /if "$(TargetPath)"
 InstallUtil $(TargetPath)
 copy $(ProjectDir)Documentation\Web.Management.PHP.PowerShell.dll-Help.xml $(TargetDir) /Y</PostBuildEvent>
   </PropertyGroup>
