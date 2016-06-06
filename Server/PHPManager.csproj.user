@@ -5,6 +5,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\windows\System32\inetsrv\inetMgr.exe</StartProgram>
+    <StartProgram>C:\windows\System32\inetsrv\InetMgr.exe</StartProgram>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <RemoteDebugMachine>localhost</RemoteDebugMachine>
   </PropertyGroup>
 </Project>

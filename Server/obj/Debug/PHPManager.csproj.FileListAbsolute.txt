@@ -1,3 +1,12 @@
 C:\Users\fat_d\Documents\Visual Studio 2015\Projects\PHPManager\Server\obj\Debug\PHPManager.csprojResolveAssemblyReference.cache
 C:\Users\fat_d\Documents\Visual Studio 2015\Projects\PHPManager\Server\obj\Debug\Web.Management.PHP.Resources.resources
 C:\Users\fat_d\Documents\Visual Studio 2015\Projects\PHPManager\Server\obj\Debug\PHPManager.csproj.GenerateResource.Cache
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.dll
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.pdb
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.dll.CodeAnalysisLog.xml
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.dll.lastcodeanalysissucceeded
+C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Debug\PHPManager.csprojResolveAssemblyReference.cache
+C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Debug\Web.Management.PHP.Resources.resources
+C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Debug\PHPManager.csproj.GenerateResource.Cache
+C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Debug\Web.Management.PHP.dll
+C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Debug\Web.Management.PHP.pdb
