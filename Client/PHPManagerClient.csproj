@@ -181,7 +181,7 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
-sn -Vr $(TargetDir)$(TargetFileName)
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\sn.exe" -Vr $(TargetDir)$(TargetFileName)
 gacutil.exe /if "$(TargetPath)"
 sn -Vr $(TargetDir)ru-RU\$(TargetName).resources.dll
 gacutil /if $(TargetDir)ru-RU\$(TargetName).resources.dll

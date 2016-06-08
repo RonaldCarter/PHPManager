@@ -4,4 +4,3 @@ C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Release\W
 C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Release\PHPManagerSetupHelper.csproj.GenerateResource.Cache
 C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Release\Web.Management.PHP.Setup.dll
 C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Release\Web.Management.PHP.Setup.pdb
-C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Release\PHPManagerSetupHelper.csprojResolveAssemblyReference.cache
