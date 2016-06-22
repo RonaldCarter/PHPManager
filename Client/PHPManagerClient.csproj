@@ -158,9 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Delete16.png" />
-    <None Include="..\phpmgrpublic.snk">
-      <Link>phpmgrpublic.snk</Link>
-    </None>
     <None Include="PHPMGRSNF.SNK.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

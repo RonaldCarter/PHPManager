@@ -89,9 +89,6 @@
     <Compile Include="SetPHPVersionCmdlet.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\phpmgrpublic.snk">
-      <Link>phpmgrpublic.snk</Link>
-    </None>
     <None Include="Documentation\Remove-WarningStuff.ps1" />
     <None Include="PHPMGRSNF.SNK.pfx" />
     <None Include="Properties\Settings.settings">
