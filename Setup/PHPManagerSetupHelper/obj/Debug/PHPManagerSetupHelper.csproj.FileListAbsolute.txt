@@ -1,0 +1,9 @@
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.Setup.dll
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.Setup.pdb
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.Setup.dll.CodeAnalysisLog.xml
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.Setup.dll.lastcodeanalysissucceeded
+C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Debug\PHPManagerSetupHelper.csprojResolveAssemblyReference.cache
+C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Debug\Web.Management.PHP.Setup.Properties.Resources.resources
+C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Debug\PHPManagerSetupHelper.csproj.GenerateResource.Cache
+C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Debug\Web.Management.PHP.Setup.dll
+C:\Users\fat_d\Source\Repos\PHPManager\Setup\PHPManagerSetupHelper\obj\Debug\Web.Management.PHP.Setup.pdb

@@ -11,7 +11,6 @@ using System;
 using System.IO;
 using System.Management.Automation;
 using System.Security.Principal;
-using System.Text.RegularExpressions;
 
 namespace Web.Management.PHP.Powershell
 {

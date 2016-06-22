@@ -10,16 +10,17 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Web.Management.PHP.Powershell</RootNamespace>
     <AssemblyName>Web.Management.PHP.PowerShell</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\phpmgrpublic.snk</AssemblyOriginatorKeyFile>
-    <DelaySign>true</DelaySign>
+    <AssemblyOriginatorKeyFile>PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,6 +30,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,6 +40,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Web.Administration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -67,6 +73,11 @@
     <Compile Include="PHPSettingItem.cs" />
     <Compile Include="PHPVersionItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="RemovePHPSettingCmdlet.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -78,10 +89,12 @@
     <Compile Include="SetPHPVersionCmdlet.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\phpmgrpublic.snk">
-      <Link>phpmgrpublic.snk</Link>
-    </None>
     <None Include="Documentation\Remove-WarningStuff.ps1" />
+    <None Include="PHPMGRSNF.SNK.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources.resx">
@@ -107,10 +120,15 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>CALL "%25VS90COMNTOOLS%25\vsvars32.bat" &gt; NULL
-sn –Vr $(TargetFileName)
-gacutil -if $(TargetPath)
+    <PostBuildEvent>if $(ConfigurationName) == Debug goto :debug
+
+:debug
+CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\sn.exe" -Vr $(TargetDir)$(TargetFileName)
+gacutil.exe /if "$(TargetPath)"
 InstallUtil $(TargetPath)
-copy $(ProjectDir)Documentation\Web.Management.PHP.PowerShell.dll-Help.xml $(TargetDir) /Y</PostBuildEvent>
+copy $(ProjectDir)Documentation\Web.Management.PHP.PowerShell.dll-Help.xml $(TargetDir) /Y
+
+:exit</PostBuildEvent>
   </PropertyGroup>
 </Project>

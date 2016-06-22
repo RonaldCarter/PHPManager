@@ -7,9 +7,9 @@
 // </copyright>
 //----------------------------------------------------------------------- 
 
-using System;
 
-namespace Web.Management.PHP {
+namespace Web.Management.PHP
+{
 
     internal static class Globals {
 

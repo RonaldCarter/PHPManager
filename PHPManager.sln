@@ -14,18 +14,31 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHPManager", "Server\PHPManager.csproj", "{BEA18085-3850-46AA-822E-61D06CAB84E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHPManagerClient", "Client\PHPManagerClient.csproj", "{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEA18085-3850-46AA-822E-61D06CAB84E3} = {BEA18085-3850-46AA-822E-61D06CAB84E3}
+	EndProjectSection
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PHPManagerSetup", "Setup\PHPManagerSetup.vdproj", "{595F0AF4-A239-4AB4-B862-29754AC75232}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEA18085-3850-46AA-822E-61D06CAB84E3} = {BEA18085-3850-46AA-822E-61D06CAB84E3}
+		{8BEC09DE-2794-4F7B-B091-C74CD934BE7F} = {8BEC09DE-2794-4F7B-B091-C74CD934BE7F}
+		{7714BEF4-AFA2-4951-A6E3-61793BCCF3F8} = {7714BEF4-AFA2-4951-A6E3-61793BCCF3F8}
+		{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8} = {61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHPManagerSetupHelper", "Setup\PHPManagerSetupHelper\PHPManagerSetupHelper.csproj", "{8BEC09DE-2794-4F7B-B091-C74CD934BE7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEA18085-3850-46AA-822E-61D06CAB84E3} = {BEA18085-3850-46AA-822E-61D06CAB84E3}
+		{7714BEF4-AFA2-4951-A6E3-61793BCCF3F8} = {7714BEF4-AFA2-4951-A6E3-61793BCCF3F8}
+		{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8} = {61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHPManagerPowershell", "Powershell\PHPManagerPowershell.csproj", "{7714BEF4-AFA2-4951-A6E3-61793BCCF3F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8} = {61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -39,10 +52,11 @@ Global
 		{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61C46EF8-DB5C-4BD8-B757-E4A10E8203F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{595F0AF4-A239-4AB4-B862-29754AC75232}.Debug|Any CPU.ActiveCfg = Release
+		{595F0AF4-A239-4AB4-B862-29754AC75232}.Debug|Any CPU.ActiveCfg = Debug
+		{595F0AF4-A239-4AB4-B862-29754AC75232}.Debug|Any CPU.Build.0 = Debug
 		{595F0AF4-A239-4AB4-B862-29754AC75232}.Release|Any CPU.ActiveCfg = Release
+		{595F0AF4-A239-4AB4-B862-29754AC75232}.Release|Any CPU.Build.0 = Release
 		{8BEC09DE-2794-4F7B-B091-C74CD934BE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BEC09DE-2794-4F7B-B091-C74CD934BE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BEC09DE-2794-4F7B-B091-C74CD934BE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BEC09DE-2794-4F7B-B091-C74CD934BE7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7714BEF4-AFA2-4951-A6E3-61793BCCF3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -52,5 +66,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
