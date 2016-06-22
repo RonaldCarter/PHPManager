@@ -26,3 +26,17 @@ The file is located at C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Web.Management
 The Commit phase completed successfully.
 
 The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Web.Management.PHP.PowerShell\v4.0_1.2.0.0__01c1d8fe0e83ca3b\Web.Management.PHP.PowerShell.dll assembly's progress.
+The file is located at C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Web.Management.PHP.PowerShell\v4.0_1.2.0.0__01c1d8fe0e83ca3b\Web.Management.PHP.PowerShell.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Web.Management.PHP.PowerShell\v4.0_1.2.0.0__01c1d8fe0e83ca3b\Web.Management.PHP.PowerShell.dll assembly's progress.
+The file is located at C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Web.Management.PHP.PowerShell\v4.0_1.2.0.0__01c1d8fe0e83ca3b\Web.Management.PHP.PowerShell.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
