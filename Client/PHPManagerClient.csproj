@@ -13,8 +13,8 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\phpmgrpublic.snk</AssemblyOriginatorKeyFile>
-    <DelaySign>true</DelaySign>
+    <AssemblyOriginatorKeyFile>PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -42,6 +42,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Web.Administration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -159,6 +161,7 @@
     <None Include="..\phpmgrpublic.snk">
       <Link>phpmgrpublic.snk</Link>
     </None>
+    <None Include="PHPMGRSNF.SNK.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -180,7 +183,10 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
+    <PostBuildEvent>if $(ConfigurationName) == Debug goto :debug
+
+:debug
+CALL "%25VS140COMNTOOLS%25\vsvars32.bat" &gt; NULL
 "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\sn.exe" -Vr $(TargetDir)$(TargetFileName)
 gacutil.exe /if "$(TargetPath)"
 sn -Vr $(TargetDir)ru-RU\$(TargetName).resources.dll
@@ -194,6 +200,8 @@ gacutil /if $(TargetDir)tr-TR\$(TargetName).resources.dll
 sn -Vr $(TargetDir)ja-JP\$(TargetName).resources.dll
 gacutil /if $(TargetDir)ja-JP\$(TargetName).resources.dll
 sn -Vr $(TargetDir)fr-FR\$(TargetName).resources.dll
-gacutil /if $(TargetDir)fr-FR\$(TargetName).resources.dll</PostBuildEvent>
+gacutil /if $(TargetDir)fr-FR\$(TargetName).resources.dll
+
+:exit</PostBuildEvent>
   </PropertyGroup>
 </Project>

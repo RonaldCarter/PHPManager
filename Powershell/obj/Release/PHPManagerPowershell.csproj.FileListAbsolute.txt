@@ -5,3 +5,5 @@ C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Release\Web.Management.PHP
 C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Release\PHPManagerPowershell.csproj.GenerateResource.Cache
 C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Release\Web.Management.PHP.PowerShell.dll
 C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Release\Web.Management.PHP.PowerShell.pdb
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.PowerShell.dll.CodeAnalysisLog.xml
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.PowerShell.dll.lastcodeanalysissucceeded

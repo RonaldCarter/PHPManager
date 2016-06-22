@@ -22,3 +22,5 @@ C:\Users\fat_d\Source\Repos\PHPManager\Client\obj\Release\ja-JP\Web.Management.P
 C:\Users\fat_d\Source\Repos\PHPManager\Client\obj\Release\fr-FR\Web.Management.PHP.Client.resources.dll
 C:\Users\fat_d\Source\Repos\PHPManager\Client\obj\Release\Web.Management.PHP.Client.dll
 C:\Users\fat_d\Source\Repos\PHPManager\Client\obj\Release\Web.Management.PHP.Client.pdb
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.Client.dll.CodeAnalysisLog.xml
+C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.Client.dll.lastcodeanalysissucceeded
