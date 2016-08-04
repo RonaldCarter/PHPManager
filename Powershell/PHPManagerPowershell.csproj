@@ -13,7 +13,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -90,7 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Documentation\Remove-WarningStuff.ps1" />
-    <None Include="PHPMGRSNF.SNK.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

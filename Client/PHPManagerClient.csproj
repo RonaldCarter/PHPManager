@@ -13,7 +13,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -158,7 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Delete16.png" />
-    <None Include="PHPMGRSNF.SNK.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
