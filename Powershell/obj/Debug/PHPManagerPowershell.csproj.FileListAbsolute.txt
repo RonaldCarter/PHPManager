@@ -1,9 +1,0 @@
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.PowerShell.dll
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.PowerShell.pdb
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.PowerShell.dll.CodeAnalysisLog.xml
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Debug\Web.Management.PHP.PowerShell.dll.lastcodeanalysissucceeded
-C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Debug\PHPManagerPowershell.csprojResolveAssemblyReference.cache
-C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Debug\Web.Management.PHP.Powershell.Resources.resources
-C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Debug\PHPManagerPowershell.csproj.GenerateResource.Cache
-C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Debug\Web.Management.PHP.PowerShell.dll
-C:\Users\fat_d\Source\Repos\PHPManager\Powershell\obj\Debug\Web.Management.PHP.PowerShell.pdb
