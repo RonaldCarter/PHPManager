@@ -13,8 +13,8 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
-    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>..\PHPMGRSNF.SNK.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -112,11 +112,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\phpmgrpublic.snk">
-      <Link>phpmgrpublic.snk</Link>
-    </None>
-    <None Include="ClassDiagram2.cd" />
-    <None Include="PHPMGRSNF.SNK.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

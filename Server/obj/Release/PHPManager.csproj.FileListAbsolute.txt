@@ -1,8 +1,0 @@
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.dll
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.pdb
-C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Release\Web.Management.PHP.Resources.resources
-C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Release\PHPManager.csproj.GenerateResource.Cache
-C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Release\Web.Management.PHP.dll
-C:\Users\fat_d\Source\Repos\PHPManager\Server\obj\Release\Web.Management.PHP.pdb
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.dll.CodeAnalysisLog.xml
-C:\Users\fat_d\Source\Repos\PHPManager\bin\Release\Web.Management.PHP.dll.lastcodeanalysissucceeded
