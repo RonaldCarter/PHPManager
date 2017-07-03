@@ -887,7 +887,6 @@ namespace Web.Management.PHP.Config
             extensions.Add(new PHPIniExtension("php_curl.dll", true));
             extensions.Add(new PHPIniExtension("php_gd2.dll", true));
             extensions.Add(new PHPIniExtension("php_gettext.dll", true));
-            extensions.Add(new PHPIniExtension("php_mysql.dll", true));
             extensions.Add(new PHPIniExtension("php_mysqli.dll", true));
             extensions.Add(new PHPIniExtension("php_mbstring.dll", true));
             extensions.Add(new PHPIniExtension("php_openssl.dll", true));

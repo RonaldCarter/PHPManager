@@ -137,9 +137,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\phpmgrpublic.snk">
-      <Link>phpmgrpublic.snk</Link>
-    </None>
     <None Include="app.config" />
     <None Include="NewPHPMGRSNF.snk" />
     <None Include="packages.config" />
