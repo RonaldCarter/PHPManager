@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Web.Management.PHP.Powershell.BaseCmdlet" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgCAAAAAAAAEAAAAAAAAAAAAAAAEgAIBAACAQA=</HashCode>
+      <FileName>BaseCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.GetPHPConfigurationCmdlet" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GetPHPConfigurationCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.GetPHPExtensionCmdlet" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAGAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GetPHPExtensionCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.GetPHPSettingCmdlet" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>GetPHPSettingCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.GetPHPVersionCmdlet" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQAACAAAAIAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>GetPHPVersionCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.Helper" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAI=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.Installer" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Installer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.NewPHPSettingCmdlet" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEIAACAAAAAAAAAAAAAAQAAAAAAAAAAAAgAIAAAAA=</HashCode>
+      <FileName>NewPHPSettingCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.NewPHPVersionCmdlet" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACCAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewPHPVersionCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.PHPConfigurationItem" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAAAAAEAAAAAAEAAACAAAAAAAAAAAAAQACAAAAAE=</HashCode>
+      <FileName>PHPConfigurationItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.PHPExtensionItem" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>PHPExtensionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.PHPSettingItem" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAgAIAAAAA=</HashCode>
+      <FileName>PHPSettingItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.PHPVersionItem" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAACAAAAAAAAAAgAAAQCAAgAAA=</HashCode>
+      <FileName>PHPVersionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.RemovePHPSettingCmdlet" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>RemovePHPSettingCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.Resources" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAECAAAAwAEAABEAACAQAAAgAAAAIAAAAIAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.SetPHPExtensionCmdlet" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIBAGAQAAAgAAAAAAAIQABAgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SetPHPExtensionCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.SetPHPSettingCmdlet" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAACAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>SetPHPSettingCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.SetPHPVersionCmdlet" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>SetPHPVersionCmdlet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Management.PHP.Powershell.Properties.Settings" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Web.Management.PHP.Powershell.HandlerRegistrationType" Collapsed="true">
+    <Position X="23.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PHPConfigurationItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Web.Management.PHP.Powershell.PHPExtensionStatus" Collapsed="true">
+    <Position X="25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PHPExtensionItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
