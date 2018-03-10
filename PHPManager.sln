@@ -5,7 +5,6 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{218B1547-6672-43D9-9907-F8312AEFA27B}"
 	ProjectSection(SolutionItems) = preProject
-		PHPMGRSNF.SNK.pfx = PHPMGRSNF.SNK.pfx
 		SharedAssembyInfo.cs = SharedAssembyInfo.cs
 	EndProjectSection
 EndProject
@@ -65,6 +64,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66C83FDA-65A5-4EB1-B832-F282C7B60093}
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
