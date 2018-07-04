@@ -32,7 +32,6 @@ namespace Web.Management.PHP.Settings
         private readonly string[] SettingNames = {
             "error_reporting",
             "display_errors",
-            "track_errors",
             "html_errors",
             "log_errors",
             "fastcgi.logging"
@@ -42,12 +41,10 @@ namespace Web.Management.PHP.Settings
             "On",
             "On",
             "On",
-            "On",
             "1"
         };
         private readonly string[] SettingsProdValues = {
             "E_ALL & ~E_DEPRECATED",
-            "Off",
             "Off",
             "Off",
             "On",
